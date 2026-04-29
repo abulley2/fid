@@ -1,0 +1,190 @@
+<html><!DOCTYPE html></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Need Help?</title>
+    <style>
+           body{background-color: cornsilk;
+          text-align: center;}
+          
+          h1{font-family: 'Times New Roman', Times, serif;
+          color: maroon;}
+
+          h2{font-family: 'Times New Roman', Times, serif;
+          color: maroon;}
+          
+          p{font-family: 'Times New Roman', Times, serif;
+          color: maroon;}
+
+    .navbar ul{list-style-type: none;
+            background-color: wheat;
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;}
+
+    .navbar a{color: maroon;
+              text-decoration: none;
+              padding: 20px;
+              display: block;
+              text-align: center;}
+
+    .navbar a:hover{background-color: goldenrod;
+    }
+
+    .navbar li{float: left;
+               align-content: center;}
+
+               footer {border-top: 1px solid rgb(163, 55, 173);
+        text-align: center;
+        margin-top: 2em;} 
+
+    footer img {width: 40px;
+        height: 40px;}
+
+        ul {list-style-type: none;
+        margin: 0;
+        padding: 0;}
+
+    li {display: inline;
+        margin: 0 15px;}
+    
+        .collapsible{-ms-flex-align: center;
+          max-width: 450px;
+                    overflow: hidden;
+                    font-weight: 500;}
+
+        .collapsible input{display: none;}
+
+        .collapsible label{position: relative;
+                          font-weight: 600;
+                          background: wheat;
+                          box-shadow: 0 5px 11px 0 rgba(128, 0, 0, 0.34), 0 4px 11px 0 rgba(128, 0, 0, 0.491);
+                          color:maroon;
+                          display: block;
+                          margin-bottom: 10px;
+                          cursor: pointer;
+                          padding: 15px 0;
+                          border-radius: 4px;
+                          z-index: 1;}
+
+        .collapsible label:after{content: "";
+                                 position: absolute;
+                                 right: 15px;
+                                 top: 20px;
+                                 width: 18px;
+                                 height: 18px;}
+
+        
+        
+
+        .collapsible-text{max-height:1px;
+                          overflow: hidden;
+                          border-radius: 4px;
+                          line-height: 1.4;
+                          position: relative;
+                          top: -100%;
+                          opacity: 0.5;
+                          transition: all 0.3 ease;}
+
+        .collapsible input:checked ~ .collapsible-text{max-height: 300px;
+                                      padding-bottom: 25px;
+                                      background: wheat;
+                                      box-shadow: 0 5px 11px 0 rgba(128, 0, 0, 0.34), 0 4px 11px 0 rgba(128, 0, 0, 0.491);
+                                      opacity: 1;
+                                      top: 0;}
+
+    .collapsible-text h2{margin-bottom: 10px;
+                         padding: 15px 15px 0;
+                         color: maroon;}
+
+    .collapsible-text p{padding-left: 15px;
+                        padding-right: 15px;}
+
+  </style>
+  </head>
+  <body>
+    <header>
+      <h1>Having issuses?</h1>
+    </header>
+          <nav class="navbar">
+  <ul>
+    <li><a href="grandmashomepage.html"><p>Home</p></a></li>
+    <li><a href="about.html"><p>About Granny</p></a></li>
+    <li><a href="news.html"><p>News</p></a></li>
+    <li><a href="employes.html"><p>Employees</p></a></li>
+    <li><a href="help.html"><p>Help</p></a></li>
+    <li><a href="donos.html"><p>Donations</p></a></li>
+  </ul>
+</nav>
+<h1>Having issuses with our games?</h1> 
+<h2>heres some Common problems</h2>
+
+
+<div class="wrapper">
+  <div class="collapsible"> 
+      <input type="checkbox" id="collapsible-head">
+    <label for="collapsible-head">The game won’t launch. What should I do?</label>
+    <div class="collapsible-text">
+      <h2>The game won’t launch. What should I do?</h2>
+      <p>First, make sure your graphics drivers are up to date. Then verify your game files through your launcher to repair anything corrupted.
+         If the game still won’t open, check that your antivirus isn’t blocking it and confirm your device 
+         meets the minimum system requirements.</p>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="collapsible"> 
+      <input type="checkbox" id="collapsible-head 2">
+    <label for="collapsible-head 2">I’m having audio problems — no sound or missing effects. How do I fix it?</label>
+    <div class="collapsible-text">
+      <h2>I’m having audio problems — no sound or missing effects. How do I fix it?</h2>
+      <p>Double‑check your audio output device and update your sound drivers. Restart the game after plugging in new headphones or speakers.
+         If audio still isn’t working, reset your in‑game audio settings to default.</p>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="collapsible"> 
+      <input type="checkbox" id="collapsible-head 3">
+    <label for="collapsible-head 3">I can’t connect to online features. What’s wrong?</label>
+    <div class="collapsible-text">
+      <h2>I can’t connect to online features. What’s wrong?</h2>
+      <p>Restart your router or try a wired connection. Make sure the game servers are online and that your game is fully updated.
+         VPNs and proxies can also cause connection issues, so try disabling them.</p>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="collapsible"> 
+      <input type="checkbox" id="collapsible-head 3">
+    <label for="collapsible-head 3">I’m stuck or confused about how to progress. Any tips?</label>
+    <div class="collapsible-text">
+      <h2>I’m stuck or confused about how to progress. Any tips?</h2>
+      <p>Check the in‑game tutorial or “How to Play” section for guidance. 
+        Many players find the hint system helpful if you want a nudge without spoilers.
+         You can also review the map or UI markers for clues on where to go next.</p>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="collapsible"> 
+      <input type="checkbox" id="collapsible-head 3">
+    <label for="collapsible-head 3">I’m confused about part of the story. Is this a bug or intentional?</label>
+    <div class="collapsible-text">
+      <h2>I’m confused about part of the story. Is this a bug or intentional?</h2>
+      <p>Many story moments are designed to be mysterious, but if something feels off, you can check our
+         spoiler‑free hint section or story FAQ. We also include clarifications in patch notes when needed.</p>
+    </div>
+  </div>
+</div>
+<h2>If none of these apply we kindly ask for you to send us a message to help us make the user expweince as plesent as posible</h2>
+<footer>
+    <p>Visit us on social media!</p>
+    <ul>
+        <li><img src="icons/facebook.svg" alt="Facebook"></li>
+        <li><img src="icons/tiktok.svg" alt="TikTok"></li>
+        <li><img src="icons/instagram.svg" alt="Instagram"></li>
+    </ul>
+</footer>
+  </body>
+</html>
