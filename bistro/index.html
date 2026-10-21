@@ -24,8 +24,28 @@ h2{color:orange;
     font: bold 1.25rem sans-serif;
     text-align:center;}
 
-nav{display: flex;
-    align-items: center;}
+        .navbar ul{
+            list-style-type: none;
+            background-color: bisque;
+            padding: 0px;
+            margin: 0px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar a{
+            color: darkolivegreen;
+            text-decoration: none;
+            padding: 15px;
+            display: block;
+            text-align: center;
+        }
+
+        .navbar a:hover{
+            background-color: darkolivegreen;
+            color: bisque;
+        }
+
 
    </style>
     </head>
@@ -33,17 +53,21 @@ nav{display: flex;
         <header>
             <img src="images/blackgoose.png">
             <h1>Black Goose Bistro</h1>
-            <nav>
+
+            <nav class="navbar">
                <ul> 
             <li><a href="index.html">Home</a></li>
-            <li>Menu</li>
+            <li><a>Menu</a></li>
             <li><a href="bgnews.html">News</a></li>
             <li><a href="jenskitchen/index.html">Our Chef</a></li>
             <li><a href="gallery/index.html">Gallery</a></li>
-            <li>Contact</li>
+            <li><a>Contact</a></li>
+            
                 </ul>
             </nav>
         </header>
+
+
 
     <h2>The Restaurant</h2>
     <p>
@@ -56,10 +80,11 @@ nav{display: flex;
     You have fun. <em>We'll handle the cooking</em>. Black Goose Catering can handle events from snacks for a meetup to
      elegant corporate fundraisers.
     </p>
-
+       
     <h2>Location and Hours</h2>
     <p>Seekonk, Massachusetts;<br>
     Monday through Thursday 11am to 9pm;<br>
      Friday and Saturday, 11am to midnight</p>
+     <a href="pizza/pizza.html"> <img src="images/order.png" alt="order now" width="300px"></a>
 </body>
 </html>
